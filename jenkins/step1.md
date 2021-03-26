@@ -3,8 +3,8 @@ This is just a placeholder for now, while I do the initial commit.
 Create Jenkins container
 `docker run -d -u root --name jenkins \
     -p 8080:8080 -p 50000:50000 \
-    -v /root/jenkins_2112:/var/jenkins_home \
-    jenkins/jenkins:2.112-alpine`{{execute}}
+    -v /root/jenkins_2277:/var/jenkins_home \
+    jenkins/jenkins:2.277.1-lts-alpine`{{execute}}
 
 Jenkins dashboard
 https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com
