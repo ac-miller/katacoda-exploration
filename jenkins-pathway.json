@@ -1,0 +1,13 @@
+{
+    "title": "Katacoda Jenkins Exploration",
+    "description": "An example of creating a Katacoda Course!",
+    "icon": "fa-katacoda",
+    "courses": 
+    [
+      {
+        "course_id": "jenkins",
+        "title": "Scenario with Jenkins",
+        "description": "Katacoda Scenario Example with Jenkins"
+      }
+    ]
+  }

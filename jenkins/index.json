@@ -1,0 +1,30 @@
+{
+    "title": "Creating a Jenkins Server",
+    "description": "Explore how to use Katacoda to learn about Jenkins",
+    "details": {
+      "steps": [
+        {
+          "title": "Step 1 - Explanation",
+          "text": "step1.md"
+        },
+        {
+            "title": "Step 2 - Setup",
+            "text": "step2.md"
+        }
+      ],
+      "intro": {
+        "text": "intro.md"
+      },
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "environment": {
+      "uilayout": "terminal",
+      "showdashboard": true,
+      "dashboards": [{"name": "Jenkins", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com"}]
+    },
+    "backend": {
+      "imageid": "ubuntu:1804"
+    }
+  }
